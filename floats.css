@@ -1,0 +1,109 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-size: 24px;
+}
+
+header {
+  padding: 20px;
+  margin: 60px; 
+  color: rgb(219, 63, 63);
+  background: rgb(12, 3, 3);
+
+}
+
+section {
+  padding:60px;
+  /* margin-bottom: 200px;  */
+  border: solid 2px rgb(77, 3, 3);
+  font-style: initial;
+  
+  
+  
+
+
+}
+
+div {
+  border: dashed rgb(16, 150, 33);
+  margin: 60px;
+}
+.section-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+}
+
+#left {
+  background-color:  #666;
+  color: white;
+  width: 33%;
+  
+}
+
+#middle {
+  background-color:#666;
+  color: white;
+  width: 33%;
+  
+  
+}
+
+article {
+  border:darkviolet 2px
+}
+#right {
+  background-color:#666;
+  color: white;
+  width: 33%;
+ 
+}
+
+#full {
+ float:left;
+  width:100%;
+  margin: 60px;
+}
+#division {
+  background-color:rgb(48, 14, 14);
+  padding: 20p;
+  margin-top: 20px;
+  color: white;
+  margin: 60px;
+}
+
+aside {
+  background-color: #fff;
+  width: 33%;
+  height: 200px;
+  border: 1px solid #eee;
+  float: left;
+  margin-left: 30px;
+   
+}
+
+aside {
+  border: black solid 2px;
+  width: 28%;
+  margin: 60px;
+  
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  background-color: rgb(191, 223, 14);
+  font-style: italic;
+  color:navy;
+  margin: 60px;
+
+
+}
